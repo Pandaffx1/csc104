@@ -30,6 +30,7 @@ a{
     padding: 30px 20px;
     position: relative;
     border-radius: 20px;
+    transition: all 0.5s ease;
 }
 
 .feedback .avatar{
