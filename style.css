@@ -76,22 +76,33 @@ a{
     background-color: black;
     color: #fff;
 }
+@media screen and (max-width:1024px) {
+    .feedback{
+        max-width: 200px;
+    }
+}
 
 @media screen and (max-width:375px){
     .feed2{
         flex-direction: row;
         top: 500px;
-        left: 20px;
+        left: 0px;
+        margin:center;
+        margin-left: -19px;
     }
     .feed1{
         flex-direction: row;
-        left: 20px;
+        left: 0px;
+        margin:center;
+        margin-left: -19px;
     }
 
     .feed3{
         flex-direction: row;
         top: 930px;
-        left: 20px;
+        left: 0px;
+        margin:center;
+        margin-left: -19px;
     }
 
 }
@@ -100,17 +111,40 @@ a{
     .feed2{
     flex-direction: row;
        top: 500px;
-       left: 26px;
+       left: 44px;
     }
     .feed1{
         flex-direction: row;
-        left: 26px;
+        left: 44px;
     }
 
     .feed3{
         flex-direction: row;
         top: 930px;
-        left: 26px;
+        left: 44px;
+    }
+}
+@media screen and (max-width:320px) {
+    .feed2{
+    flex-direction: row;
+       top: 500px;
+       left: 0px;
+       margin: center;
+       margin-left: 4px;
+    }
+    .feed1{
+        flex-direction: row;
+        left: 0px;
+        margin: center;
+        margin-left: 4px;
+    }
+
+    .feed3{
+        flex-direction: row;
+        top: 930px;
+        left: 0px;
+        margin: center;
+        margin-left: 4px;
     }
 }
 
