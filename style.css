@@ -96,3 +96,22 @@ a{
 
 }
 
+@media screen and (max-width:425px) {
+    .feed2{
+    flex-direction: row;
+       top: 500px;
+       left: 26px;
+    }
+    .feed1{
+        flex-direction: row;
+        left: 26px;
+    }
+
+    .feed3{
+        flex-direction: row;
+        top: 930px;
+        left: 26px;
+    }
+}
+
+
