@@ -1,5 +1,5 @@
 :root{
-    background-color: rgba(0, 255, 255, 0.726);
+    background-color: black;
 }
 .container{
     /* border: 1px solid #c2c2c2; */
@@ -75,5 +75,24 @@ a{
 .feedback:hover{
     background-color: black;
     color: #fff;
+}
+
+@media screen and (max-width:375px){
+    .feed2{
+        flex-direction: row;
+        top: 500px;
+        left: 20px;
+    }
+    .feed1{
+        flex-direction: row;
+        left: 20px;
+    }
+
+    .feed3{
+        flex-direction: row;
+        top: 930px;
+        left: 20px;
+    }
+
 }
 
