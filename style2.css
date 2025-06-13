@@ -3,8 +3,8 @@
 
 }
 .container{
-    /* border: 1px solid #c2c2c2; */
-    width: 80%;
+     /* border: 1px solid #c2c2c2; */
+    width: 80%; 
 
     height: 800px;
     margin: 10% auto;
@@ -45,13 +45,13 @@ a{
 }
 
 .a{
-    background: url("img.jpg") no-repeat center center/cover;
+    background: url("img1\ \(12\).jpeg") no-repeat center center/cover;
 }
 .b{
-    background: url("img1\ \(6\).jpeg") no-repeat center center/cover;
+    background: url("img1\ \(7\).jpeg") no-repeat center center/cover;
 }
 .c{
-    background: url("img1\ \(15\).jpeg") no-repeat center center/cover;
+    background: url("img20.jpeg") no-repeat center center/cover;
 }
 
 .feed3{
