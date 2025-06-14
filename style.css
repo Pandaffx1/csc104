@@ -14,6 +14,7 @@
 }
 
 h1{
+    font-family: Helvetica;
     color: white;
     padding: auto;
     text-align: center;
@@ -88,18 +89,22 @@ a{
 
 @media screen and (max-width:375px){
 
+    .container{
+        font-family: Helvetica;
+    }
+
     .feed2{
     flex-direction: row;
        top: 500px;
        left: 0px;
        margin: center;
-       margin-left: -19px;
+       margin-left: -35px;
     }
     .feed1{
         flex-direction: row;
         left: 0px;
        margin:center;
-       margin-left: -19px;
+       margin-left: -35px;
     }
 
     .feed3{
@@ -107,11 +112,14 @@ a{
         top: 930px;
         left: 0px;
         margin: center;
-        margin-left: -19px;
+        margin-left: -35px;
     }
 }
 
 @media screen and (max-width:425px) {
+    .container{
+        font-family: Helvetica;
+    }
     .feed2{
     flex-direction: row;
        top: 500px;
@@ -130,18 +138,21 @@ a{
 }
 
 @media screen and (max-width:320px) {
+.container{
+    font-family: sans-serif;
+}
     .feed2{
     flex-direction: row;
        top: 500px;
        left: 0px;
        margin: center;
-       margin-left: 4px;
+       margin-left: -9px;
     }
     .feed1{
         flex-direction: row;
         left: 0px;
         margin: center;
-        margin-left: 4px;
+        margin-left: -9px;
     }
 
     .feed3{
@@ -149,7 +160,7 @@ a{
         top: 930px;
         left: 0px;
         margin: center;
-        margin-left: 4px;
+        margin-left: -9px;
     }
 }
 

@@ -14,6 +14,7 @@
 }
 
 h1{
+    font-family: Helvetica;
     color: white;
     padding: auto;
     text-align: center;
@@ -88,6 +89,10 @@ a{
 
 @media screen and (max-width:375px){
 
+    .container{
+        font-family: sans-serif;
+    }
+
     .feed2{
     flex-direction: row;
        top: 500px;
@@ -112,6 +117,9 @@ a{
 }
 
 @media screen and (max-width:425px) {
+    .container{
+        font-family: sans-serif;
+    }
     .feed2{
     flex-direction: row;
        top: 500px;
@@ -130,6 +138,9 @@ a{
 }
 
 @media screen and (max-width:320px) {
+ .container{
+    font-family: sans-serif;
+ }
     .feed2{
     flex-direction: row;
        top: 500px;
